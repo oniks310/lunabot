@@ -2,6 +2,7 @@ import telebot
 from telebot import types
 from datetime import datetime
 import parser
+import os
 
 TOKEN = os.environ['TOKEN']
 bot = telebot.TeleBot(TOKEN)
